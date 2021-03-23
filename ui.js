@@ -32,12 +32,23 @@ class UI {
     `
   }
   errorMessage(message, className) {
+    this.clearError();
     const div = document.createElement('div');
     div.className = className;
     div.appendChild(document.createTextNode(message));
     const container = document.querySelector('.search-container');
     const search = document.querySelector('.search');
-    container.insertBefore(div, search)
+    container.insertBefore(div, search);
+    setTimeout(() => {
+      this.clearError();
+    }, 3000);
+  }
+
+  clearError() {
+    const errorMsg = document.querySelector('.alert');
+    if(errorMsg) {
+      errorMsg.remove();
+    }
   }
 
   clearProfile() {
