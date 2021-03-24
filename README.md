@@ -1,7 +1,7 @@
 # Github-Finder
 # Loan-Calculator
 
-This is a personal project where the user can use this app to calculate a loan. This calculator accepts 3 fiels: `loan amount`, `interest amount`, `years to repay` and it returns `monthly payment`, `total payment` and `total interest`.
+This is a personal project where the user can use this app find github users. This app shows the user profile/description, Repositories, public gists, followers, following and it shows links to their last 10 public repos.
 
 ![img](./github.png)
 
