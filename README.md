@@ -15,7 +15,7 @@ This is a personal project where the user can use this app find github users. Th
 - HTML
 - CSS
 - VS Code
-Async & Await
+- Async & Await
 
 ## Install 
 
